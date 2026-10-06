@@ -1,0 +1,33 @@
+# --- secrets (§34) ---
+.env
+backend/.env
+frontend/.env
+
+# --- database: treat as disposable, rebuild with data/seed.py --force (§33) ---
+*.db
+*.db-journal
+*.sqlite3
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# --- trained models: regenerate with `python -m app.ml.train_all` ---
+backend/app/ml/models/*.joblib
+
+# --- node ---
+node_modules/
+frontend/dist/
+npm-debug.log*
+.vite/
+
+# --- editors / os ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

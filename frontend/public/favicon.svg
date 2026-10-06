@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0b1220"/>
+  <!-- risk dial: green arc rising into red, the app's core idea in one glyph -->
+  <path d="M14 44a18 18 0 0 1 36 0" fill="none" stroke="#243044" stroke-width="7" stroke-linecap="round"/>
+  <path d="M14 44a18 18 0 0 1 9.6-15.9" fill="none" stroke="#10b981" stroke-width="7" stroke-linecap="round"/>
+  <path d="M40.4 28.1A18 18 0 0 1 50 44" fill="none" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+  <line x1="32" y1="44" x2="43" y2="31" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="44" r="4" fill="#f97316"/>
+</svg>

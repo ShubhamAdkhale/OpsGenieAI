@@ -1,0 +1,14 @@
+**/.env
+**/node_modules
+**/.venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+frontend/dist
+backend/static
+backend/app/ml/models/*.joblib
+*.db
+*.db-journal
+.git
+.vscode
+.idea

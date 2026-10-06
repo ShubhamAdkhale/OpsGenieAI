@@ -1,0 +1,9 @@
+# Render Blueprint: one free web service built from the Dockerfile.
+# The UI, the API and the docs (/docs) are all served from the same URL.
+services:
+  - type: web
+    name: opsgenie-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
